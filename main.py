@@ -2,7 +2,9 @@
 
 One code review comment that genuinely approves the pull request while
 carrying quiet existential dread: the code is clean, well tested, and
-certain to outlive everyone who reviewed it.
+certain to outlive everyone who reviewed it — so the reviewer approves
+it, then archives their own job description as legacy code, the one
+concrete absurd work detail that makes the dread land.
 
 The gate allows 1 to 140 characters, so refuse to ship anything longer,
 anything blank, or anything that is not exactly one line.
@@ -12,11 +14,11 @@ import os
 
 SETUP = (
     "LGTM. Clean, well-tested, and certain to outlive every one of "
-    "us; "
+    "us — "
 )
 PUNCHLINE = (
-    "merging this is the closest thing to permanence any of us "
-    "will ever ship."
+    "I approved it, then archived my own job description as "
+    "legacy code."
 )
 LINE = SETUP + PUNCHLINE
 
