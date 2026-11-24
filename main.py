@@ -10,11 +10,15 @@ anything blank, or anything that is not exactly one line.
 
 import os
 
-LINE = (
+SETUP = (
     "LGTM. Clean, well-tested, and certain to outlive every one of "
-    "us; merging this is the closest thing to permanence any of us "
+    "us; "
+)
+PUNCHLINE = (
+    "merging this is the closest thing to permanence any of us "
     "will ever ship."
 )
+LINE = SETUP + PUNCHLINE
 
 chars = len(LINE)
 if chars < 1 or chars > 140:
